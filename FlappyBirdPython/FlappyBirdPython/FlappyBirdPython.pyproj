@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>46fd9e32-1284-4937-8a93-da6119b30624</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FlappyBirdPython.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FlappyBirdPython.py" />
+    <Compile Include="main.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="gallery\" />
+    <Folder Include="gallery\audio\" />
+    <Folder Include="gallery\sprites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gallery\audio\die.wav" />
+    <Content Include="gallery\audio\hit.wav" />
+    <Content Include="gallery\audio\point.wav" />
+    <Content Include="gallery\audio\swoosh.wav" />
+    <Content Include="gallery\audio\wing.wav" />
+    <Content Include="gallery\sprites\0.png" />
+    <Content Include="gallery\sprites\1.png" />
+    <Content Include="gallery\sprites\2.png" />
+    <Content Include="gallery\sprites\3.png" />
+    <Content Include="gallery\sprites\4.png" />
+    <Content Include="gallery\sprites\5.png" />
+    <Content Include="gallery\sprites\6.png" />
+    <Content Include="gallery\sprites\7.png" />
+    <Content Include="gallery\sprites\8.png" />
+    <Content Include="gallery\sprites\9.png" />
+    <Content Include="gallery\sprites\background.png" />
+    <Content Include="gallery\sprites\base.png" />
+    <Content Include="gallery\sprites\bird.png" />
+    <Content Include="gallery\sprites\message.png" />
+    <Content Include="gallery\sprites\pipe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
